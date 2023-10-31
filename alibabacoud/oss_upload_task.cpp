@@ -106,6 +106,8 @@ void OSSUploadTask::run() {
 
   //启用CONTENT-MD5
   request.MetaData().addHeader("disabledMD5", "false");
+
+  request.setTransferProgress(progress_callback);
   /* 上传文件。*/
   auto outcome = client_->PutObject(request);
   OSSError error;
