@@ -5,5 +5,5 @@ repository: http://172.20.180.12:8050/yanfa4/corelib/ossWrapper
 external_repository: https://github.com/CrealityOfficial/ossWrapper
 description: osswrapper
 topics: osswrapper,osswrapper
-build_deps: aliyunoss/0.0.2
-search_deps: aliyunoss/0.0.2
+build_deps: aliyunoss_static/1.0.0
+search_deps: aliyunoss_static/1.0.0
